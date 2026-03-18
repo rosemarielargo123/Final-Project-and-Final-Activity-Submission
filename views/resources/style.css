@@ -1,0 +1,180 @@
+body{
+    background-color: cadetblue;
+    font-family: 'Calibri';
+}
+.input-form{
+    background-color: #99ccff;
+    width: 30%;
+    margin: 5em auto;
+    padding: 5em  2em;
+    outline-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px  #000077;
+   
+}
+input{
+    width: 95%;
+    display:block;
+    margin: .5em auto;
+    padding: .5em  .2em;
+    margin-top: 1em;
+    outline-color:#ffccff
+}
+
+label{
+    font-size: .8em;
+    color:#333333;
+    margin-left: .5em;
+    
+}
+
+input[type='submit']{
+    background-color: #ffcccc ;
+    color : #fff;
+    border:none;
+    padding: .7em;
+    border-radius: 8px;
+}
+input[type='submit']:hover {
+    background-color: #99ccff;
+    color:#3300ff
+       
+}
+
+.navbar {
+    width:100%;
+    background: #ccccff ;
+    box-shadow: 5px 5px 10px 0px  #000077;
+    
+}
+.right-link {
+    width:20%;
+    margin-left: auto;
+    margin: 0px;
+    display: inline-block;
+}
+.li{
+    display: inline-block;
+    padding: 1em;
+}
+.right-link a{
+    text-decoration: none;
+    color: #333333;
+    padding: 1.3em;
+}
+.right-link a:hover{
+    background-color:  #ffccff;
+}
+
+.right-link a:active{
+    background-color: #ffccff;
+}
+
+.left-link{
+    display: inline-block;
+    width: 70%;
+    margin-right: auto;
+    margin: 0px;
+}
+
+.left-link a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ccccff;
+    padding: 2em;
+}
+
+.logo {
+    background-image: url('logo.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alert {
+    text-align: center;
+    font-size: .8em;
+    color: brown;
+}
+.container {
+    min-height: 40vh;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #ccffff;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 2px 2px 2px 0px;
+}
+.banner {
+    min-height: 20vh;
+    width: 100%;
+    background-color: #fff;
+    padding: .5em;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.title{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #101055;
+}
+.pro-pic{
+    background-color: #faf;
+    border: solid 5px #fff;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    bottom: -10vh;
+    left: 10vh;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 0px #fff;
+}
+.banner-name{
+    font-size: 2em;
+    color: #000055;
+    position: absolute;
+    left: 35vh;
+    bottom: -5vh;
+}
+.post-container{
+    margin: 2vh;
+    margin-top: 15vh;
+}    
+
+.post-form{
+    width: 50%;
+    margin-top: auto;
+}
+
+#post-area { 
+    display: block;
+    resize: none;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 15px;
+}
+#post-button {
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+.post-block {
+    padding: 1em;
+    margin: .5em .5em;
+    border: solid .10px #fff;
+    border-radius: 5px;
+}
+.post-name{
+    font-weight: bold;
+}
+.post-content{
+    margin-top: .5em;
+    padding-left: 1em;
+}
